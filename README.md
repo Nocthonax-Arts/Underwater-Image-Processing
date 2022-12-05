@@ -1,8 +1,8 @@
 # Underwater-Image-Processing
-Test software for processing underwater images for purpose of making text more readable. Heavily based on Underwater-Image-Enhancement-and-Color-Restoration paper
+Test software for processing underwater images for the purpose of making text more readable. Heavily based on "An Experimental-based Review of Image
+Enhancement and Image Restoration Methods for Underwater Imaging" [DOI 10.1109/ACCESS.2019.2932130, IEE Access]
 
-Since the implementation is in test form, specific file strucutre is required. 
-Once you have code on you device, root reposistory should have 3 folders 
+Since the implementation is in test form, specific file structures are required. Once you have code on your device, the root repository should have 3 folders.
 
 InputImages
 
@@ -10,14 +10,9 @@ OutputImages
 
 SRC
 
-Location of said repository doesen't matter, but these folders must exist. 
-InputImages is where you put images you want processsed. 
-OutputImages is folder where processed images are stored
-And src is all the code for all the algorithms
+The location of said repository doesn't matter, but these folders must exist. InputImages is where you save images that you want to process. OutputImages is folder where processed images are stored. Src is all the code for all the algorithms.
 
-
-Main branch contains all algorythms and main.py in root of SRC directory will run all input images through all algorythms
-ProposedSolution branch will only run input images through CLACHE, HE and RGHS, as proposed in the report 
+Main branch contains all algorithms, and main.py in the root of the SRC directory will run all input images through all algorithms, while the ProposedSolution branch will only run input images through CLACHE, HE and RGHS, as proposed in the report.
 
 
 
